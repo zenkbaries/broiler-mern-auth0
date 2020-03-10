@@ -1,3 +1,12 @@
+# React Boilerplate
+
+This is a boilerplate of React app. 
+
+Feel free to clone it and use it to start creating your own app.
+
+
+----
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
