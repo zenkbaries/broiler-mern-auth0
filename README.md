@@ -1,4 +1,4 @@
-# React Boilerplate
+# React Boilerplate with Auth0 authentication
 
 This is a boilerplate of React app. 
 
