@@ -1,0 +1,5 @@
+
+{
+    "domain": "<GET_DOMAIN_KEY_FROM_AUTH0_SETTING>",
+    "clientId": "<GET_CLIENTID_FROM_AUTH0_SETTING>"
+}
