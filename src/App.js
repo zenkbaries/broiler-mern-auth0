@@ -4,6 +4,10 @@ import React from "react";
 import NavBar from "./components/NavBar";
 import { useAuth0 } from "./react-auth0-spa";
 import './App.css';
+import { Router, Route, Switch } from "react-router-dom";
+import Profile from "./components/Profile";
+import history from "./utils/history";
+
 
 function App() {
 
@@ -15,9 +19,15 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <NavBar />
-      </header>
+      <Router history={history}>
+        <header className="App-header">
+          <NavBar />
+        </header>
+        <Switch>
+          <Route path="/" exact />
+          <Route path="/profile" component={Profile} />
+        </Switch>
+      </Router>        
     </div>
   );
 }
