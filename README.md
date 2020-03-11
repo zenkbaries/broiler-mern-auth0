@@ -1,77 +1,69 @@
-# React Boilerplate with Auth0 authentication
+# React Boilerplate
 
-This is a boilerplate of React app. 
+This is a React app boilerplate with Auth0.
 
-Feel free to clone it and use it to start creating your own app.
-
-
-----
+Feel free to use this boilerplate.  To use it, clone this repository and then complete all items in the [What's Next](#whats-next) section. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+[Auth0](https://auth0.com/) is a flexible, drop-in solution to add authentication and authorization services to your applications. 
+Read this guide, ["React:Login"](https://auth0.com/docs/quickstart/spa/react), to understand how it was implemented and to better understand it. Use it as a guide to help you customize your app.
 
-In the project directory, you can run:
+# What's next:
 
-### `npm start`
+- [ ] Change README contents - replace the contents of each section with the specifics of your app
+- [ ] Update package.json
+  - [ ] name
+  - [ ] description
+  - [ ] main
+  - [ ] keywords 
+  - [ ] repository
+  - [ ] author
+  - [ ] license
+- [ ] Add your Domain and ClientID to `auth_config.json`. from your Auth0 account. 
+- [ ] Customize App.css
+- [ ] Customize Profile.js 
+- [ ] Customize NavBar.js
+- [ ] Remove this section of the README, you're set
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Note: The following file is not needed but it is there so you can see how the Auth0 can be used. It can be deleleted or replaced with something else and not interfer with Auth0 code setup:
+* `Profile.js`
+* `NavBar.js`
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# This is a pre-release!
 
-### `npm test`
+This is a quick first draft. All the options that will likely need to be added to accommodate a large
+number of use-cases are still needed. If you'd like to make requests or help update this boilerplate, please
+open an [Issue](https://github.com/zenkbaries/boilerplate-mern-auth0/issues) or a [PR](https://github.com/zenkbaries/boilerplate-mern-auth0/pulls).
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## What Gets Created
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Frontend React app with Auth0.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Example
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+What will this example create? Is it the common use case? 
 
-### `npm run eject`
+```
+npm install
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Are there other common use cases you should show examples of?
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Design Notes
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Include any design notes that someone implementing this might find useful
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Contributing
 
-## Learn More
+Please open Pull Requests and Issues on the [Github Repo]().
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+MIT
 
-### Code Splitting
+## About this README
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+The README.md from https://github.com/mbonig/jsii-construct-starter was used as a template for this README.md.
