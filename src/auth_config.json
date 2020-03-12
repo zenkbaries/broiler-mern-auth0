@@ -1,5 +1,6 @@
 
 {
-    "domain": "<GET_DOMAIN_KEY_FROM_AUTH0_SETTING>",
-    "clientId": "<GET_CLIENTID_FROM_AUTH0_SETTING>"
+    "domain": "GET_DOMAIN_KEY_FROM_AUTH0_SETTING",
+    "clientId": "GET_CLIENTID_FROM_AUTH0_SETTING",
+    "audience": "GET_AUDIENCE_FROM_AUTH_SETTING"
 }
