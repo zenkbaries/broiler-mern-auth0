@@ -1,6 +1,6 @@
 
 {
-    "domain": "GET_DOMAIN_KEY_FROM_AUTH0_SETTING",
-    "clientId": "GET_CLIENTID_FROM_AUTH0_SETTING",
-    "audience": "GET_AUDIENCE_FROM_AUTH_SETTING"
+    "domain": "dev-gviqn817.auth0.com",
+    "clientId": "rkmalq5iRbHxWuxQ808dDPlJotc9wtSw",
+    "audience": "https://boilerplateAPI.kellyboy.com"
 }
